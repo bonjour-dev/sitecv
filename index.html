@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/helpers.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon/waving-hand.ico">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f30e2ad601.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Paul Charlon</title>
+</head>
+
+<body>
+    <header class="flex flex-center">
+        <!---------------- Nav bar ---------------->
+        <div class="navbar">
+            <ul class="ul-nav flex">
+                <li class="nav-item">
+                    <a href="#competences">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experiences">Expérience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#realisations">Réalisations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!---------------- Section bonjour ---------------->
+        <section class="container-section section-bonjour flex flex-center">
+            <!-- imgs -->
+            <img src="assets/img/pcr-vertical.webp" alt="paulcharlon" class="title-img">
+            <img src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_1f44b.png"
+                alt="Waving Hand on Microsoft Teams 1.0" class="waving-hand" width="100" height="100">
+            <div class="bonjour-wrapper">
+                <!-- text -->
+                <h1>Bonjour <span class="br-bonjour"><br></span>je suis <span class="title-paul">Paul
+                        Charlon</span>,<br>développeur web en formation.</h1>
+                <p><i class="fa-solid fa-location-dot"></i> Paris - <span class="stage-underline">en recherche de stage
+                        07/23->09/23</span></p>
+                <!-- buttons -->
+                <div class="button-wrapper">
+                    <button onclick="window.open('assets/pdf/cvpaulcharlon.pdf')">télécharger CV</button>
+                    <button onclick="window.location.href = '#contact'">me contacter</button>
+                </div>
+            </div>
+        </section>
+        <!---------------- Section competences ---------------->
+        <!-- competences anchor -->
+        <div id="competences"></div>
+        <section class="container-section margin-top-section">
+            <div class="padding-top-md">
+                <div class="flex justify-center">
+                    <h2><img src="assets/section-icons/laptop.png" alt="open-book" class="title-icons"><span
+                            class="title-competences">Compétences :</span></h2>
+                </div>
+                <!-- icons section row 1 -->
+                <div class="flex space-around competence-wrapper">
+                    <div class="flex flex-col text-center">
+                        <h3>Front-End</h3>
+                        <div class="flex gap-md">
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/frontend/sass.png" alt="SASS">
+                                </div>
+                                <p>SASS</p>
+                            </div>
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/frontend/tailwindcss.png" alt="Tailwind CSS">
+                                </div>
+                                <p>Tailwind CSS</p>
+                            </div>
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/frontend/bootstrap.png" alt="Bootstrap">
+                                </div>
+                                <p>Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col text-center">
+                        <h3>Back-End</h3>
+                        <div class="flex gap-md">
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/backend/php.png" alt="PHP">
+                                </div>
+                                <p>PHP</p>
+                            </div>
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/backend/symfony.png" alt="Symfony">
+                                </div>
+                                <p>Symfony</p>
+                            </div>
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/backend/postgreesql.png" alt="PostGre SQL">
+                                </div>
+                                <p>PostGre SQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- section icons row 2 -->
+                <div class="flex space-around competence-wrapper margin-bottom-md">
+                    <div class="flex flex-col text-center">
+                        <h3>Outils de productivité</h3>
+                        <div class="flex gap-md">
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/outils/git.png" alt="Git">
+                                </div>
+                                <p>Git</p>
+                            </div>
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/outils/obsidian.png" alt="Obsidian">
+                                </div>
+                                <p>Obsidian</p>
+                            </div>
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/outils/trello.png" alt="Trello">
+                                </div>
+                                <p>Trello</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col text-center">
+                        <h3>Design</h3>
+                        <div class="flex gap-md">
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/design/figma.png" alt="Figma">
+                                </div>
+                                <p>Figma</p>
+                            </div>
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/design/adobe-photoshop.png" alt="Photoshop">
+                                </div>
+                                <p>Photoshop</p>
+                            </div>
+                            <div class="flex flex-col text-center align-center">
+                                <div class="tech-icons flex justify-center align-center">
+                                    <img src="assets/tech-icons/design/adobe-illustrator.png" alt="Illustrator">
+                                </div>
+                                <p>Illustrator</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------- Section experiences ---------------->
+        <!-- experiences anchor -->
+        <div id="experiences"></div>
+        <section class="container-section margin-top-section">
+            <div class=" flex justify-center padding-top-md">
+                <h2><img src="assets/section-icons/open-book.png" alt="open-book" class="title-icons"><span
+                        class="title-experiences">Expériences & Formation :</span>
+                </h2>
+            </div>
+            <div class="flex space-between margin-top-sm text-exp-container">
+                <!-- text exp row 1 -->
+                <div class="text-exp-wrapper margin-0 padding-right-md">
+                    <div class="exp-text-items">
+                        <h4>2017->2020 SEMAEST : société de la mairie de Paris</h4>
+                        <ol>
+                            <li>
+                                <p>· Développement de 3 sites web avec le CMS Wordpress, du maquettage jusqu'au
+                                    référencement naturel.</p>
+                            </li>
+                            <li>
+                                <p>· Elaboration d'une stratégie d'acquisition de trafic.</p>
+                            </li>
+                            <li>
+                                <p>· Création d'une identitée visuelle et de leurs supports à destination des réseaux
+                                    sociaux.</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="exp-text-items">
+                        <h4>2017 Formation à SIMPLON</h4>
+                        <ol>
+                            <li>
+                                <p>
+                                    · De la stratégie de communication en ligne à la fidélisation en passant par la
+                                    dématérialisation
+                                    d'offres de service, le référent digital participe activement à la stratégie
+                                    digitale
+                                    d'une
+                                    entreprise.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    · Son principal rôle est d'identifier et d'accompagner la création de solutions
+                                    numériques au
+                                    sein d'une structure.
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                </div><!-- text exp row 2 -->
+                <div class="text-exp-wrapper margin-0 padding-right-md">
+                    <div class="exp-text-items">
+                        <h4>2011->2016 Photographe en freelance</h4>
+                        <ol>
+                            <li>
+                                <p>· Participation à la réalisation d'une prise de vue sur site ou en studio d'objet.
+                                </p>
+                            </li>
+                            <li>
+                                <p>· Réalisation d'infographies sur supports numériques et print.</p>
+                            </li>
+                            <li>
+                                <p>· Retouche images sur plusieurs typologies de produits avec la suite Adobe.</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="exp-text-items">
+                        <h4>2006->2010 Bac-Pro Photographie</h4>
+                        <ol>
+                            <li>
+                                <p>
+                                    · Le lycée CE3P a été l'un des premiers de
+                                    France à préparer les élèves au bac professionnel de photographie.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    · Le bac photo mêle
+                                    apprentissage traditionnel et cours photo
+                                    techniques visant à se professionnaliser
+                                    rapidement dès la fin de ses études.
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------- Section realisations ---------------->
+        <!-- realisations anchor -->
+        <div id="realisations"></div>
+        <section class="container-section margin-top-section">
+            <div class="flex justify-center padding-top-md">
+                <h2><img src="assets/section-icons/gear.png" alt="open-book" class="title-icons"><span
+                        class="title-realisations">Réalisations :</span></h2>
+            </div>
+            <div class="realisation-container flex justify-center">
+                <div class="realisation-wrapper flex justify-center gap-sm-1">
+                    <div class="flex flex-col align-center realisation-card">
+                        <!-- card 1 -->
+                        <div class="text-center justify-center realisation-text-wrap">
+                            <h4>CoSto</h4>
+                            <p>WordPress - Site d'information - Blog d'entreprise</p>
+                        </div>
+                        <img src="assets/img/section-realisation/realisation-costo.png" alt="costo"
+                            class="realisation-img">
+                        <button class="realisation-buttons">Visiter -></button>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="flex flex-col align-center realisation-card">
+                        <div class="text-center realisation-text-wrap">
+                            <h4>The Fiasco</h4>
+                            <p>Boostrap - Site statique - Restaurant</p>
+                        </div>
+                        <img src="assets/img/section-realisation/realisation-fiasco.png" alt="fiasco"
+                            class="realisation-img">
+                        <button class="realisation-buttons">Visiter -></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------- Section contact ---------------->
+        <!-- contact anchor -->
+        <div id="contact"></div>
+        <section class="container-section margin-top-section">
+            <div class="flex justify-center padding-top-md">
+                <h2><img src="assets/section-icons/mailbox.png" alt="open-book" class="title-icons"><span
+                        class="title-contact">Me contacter :</span></h2>
+            </div>
+            <div class="flex contact-container">
+                <!-- form -->
+                <div class="form-container flex align-center justify-center">
+                    <form class="contact-form">
+                        <div class="flex gap-sm-1">
+                            <div class="form-group">
+                                <label for="nom">Nom / Prénom</label>
+                                <input id="nom" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="sujet">Sujet</label>
+                                <input id="sujet" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" cols="33"></textarea>
+                        </div>
+                        <div class="flex justify-center form-button">
+                            <button type="submit">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- socials -->
+                <div class="social-container flex flex-col gap-sm-1 justify-center">
+                    <div class="social-items flex gap-sm-1">
+                        <div onclick="window.open('assets/pdf/cvpaulcharlon.pdf')"
+                            class="social-icons flex justify-center align-center">
+                            <img src="assets/rs-icons/linkedin.png" alt="Linkedin">
+                        </div>
+                        <h4>Linkedin</h4>
+                    </div>
+                    <div class="social-items flex gap-sm-1 justify-start">
+                        <div onclick="window.open('assets/pdf/cvpaulcharlon.pdf')"
+                            class="social-icons flex justify-center align-center">
+                            <img src="assets/rs-icons/twitter.png" alt="Twitter">
+                        </div>
+                        <h4>Twitter</h4>
+                    </div>
+                    <div class="social-items flex justify-start gap-sm-1">
+                        <div onclick="window.open('assets/pdf/cvpaulcharlon.pdf')"
+                            class="social-icons flex justify-center align-center">
+                            <img src="assets/rs-icons/composing-mail.png" alt="Mail">
+                        </div>
+                        <h4>Mail</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

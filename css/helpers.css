@@ -1,0 +1,79 @@
+ /* --- flexbox --- */
+ .flex {
+     display: flex;
+ }
+
+ .flex-col {
+     flex-direction: column;
+ }
+
+ .flex-center {
+     justify-content: center;
+     align-items: center;
+ }
+
+ .justify-center {
+     justify-content: center;
+ }
+
+ .align-center {
+     align-items: center;
+ }
+
+ .align-start {
+     align-items: flex-start;
+ }
+
+ .space-around {
+     justify-content: space-around;
+ }
+
+ .space-between {
+     justify-content: space-between;
+ }
+
+ .justify-start {
+     justify-content: flex-start;
+ }
+
+ /* --- Sizing --- */
+
+ .gap-sm {
+     gap: 0.2rem;
+ }
+
+ .gap-sm-1 {
+     gap: 1rem;
+ }
+
+ .gap-md {
+     gap: 3rem;
+ }
+
+ .padding-top-md {
+     padding-top: 2rem;
+ }
+
+ .padding-right-md {
+     padding-right: 2rem;
+ }
+
+ .margin-bottom-md {
+     margin-bottom: 3rem;
+ }
+
+ .margin-top-sm {
+     margin-top: 1.5rem;
+ }
+
+ .text-center {
+     text-align: center;
+ }
+
+ .margin-left-0 {
+     margin-left: 0rem;
+ }
+
+ .margin-0 {
+     margin: 0;
+ }
